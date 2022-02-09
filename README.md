@@ -10,7 +10,7 @@ Tao Gu, Yue Chen
 
 ## Introduction
 
-The motivation of this project is to improve the accuracy of 3D visual grounding. In this report, we propose a new model, named HAIS 2GNN based on the InstanceRefer model, to tackle the problem of insufficient connections between instance proposals. Our model incorporates a powerful instance segmentation model HAIS and strengthens the instance features by the structure of graph and attention, so that the text and point cloud can be better matched together. Experiments confirm that our method outperforms the InstanceRefer on ScanRefer validation datasets.
+The motivation of this project is to improve the accuracy of 3D visual grounding. In this report, we propose a new model, named HAIS_2GNN based on the [InstanceRefer](https://github.com/CurryYuan/InstanceRefer) model, to tackle the problem of insufficient connections between instance proposals. Our model incorporates a powerful instance segmentation model HAIS and strengthens the instance features by the structure of graph and attention, so that the text and point cloud can be better matched together. Experiments confirm that our method outperforms the InstanceRefer on ScanRefer validation datasets.
 
 
 ## Setup
@@ -72,7 +72,8 @@ python scripts/eval.py
 ```
 
 ### Pre-trained Models
-| Input | ACC@0.25 | ACC@0.5 | Checkpoints
+
+| Input | ACC@0.25 Unique | ACC@0.5 | Checkpoints
 |--|--|--|--|
 | xyz+rgb |  39.24  | 33.66 |  will be released soon
 
@@ -84,11 +85,11 @@ python scripts/eval.py
 - [ ] Upload to ScanRefer benchmark
 
 ## Changelog
-02/09/2022: Released the HAIS_2GNN
+02/09/2022: Released HAIS_2GNN
 
 ## Acknowledgement
 This work is a research project conducted by Tao Gu and Yue Chen for ADL4CV:Visual Computing course at the Technical University of Munich.
 
-We acknowledge that our work is based on [ScanRefer](https://github.com/daveredrum/ScanRefer), [InstanceRefer](https://github.com/CurryYuan/InstanceRefer), [HAIS](https://github.com/hustvl/HAIS),[torchsaprse](https://github.com/mit-han-lab/torchsparse), and [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric).
+We acknowledge that our work is based on [ScanRefer](https://github.com/daveredrum/ScanRefer), [InstanceRefer](https://github.com/CurryYuan/InstanceRefer), [HAIS](https://github.com/hustvl/HAIS), [torchsaprse](https://github.com/mit-han-lab/torchsparse), and [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric).
 
 

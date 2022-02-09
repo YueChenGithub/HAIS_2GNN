@@ -1,0 +1,13 @@
+h5py
+pandas
+easydict
+plyfile
+trimesh
+pyyaml
+tqdm
+tensorboardX
+torch-scatter -f https://pytorch-geometric.com/whl/torch-1.10.1+cu113.html
+torch-sparse -f https://pytorch-geometric.com/whl/torch-1.10.1+cu113.html
+torch-cluster -f https://pytorch-geometric.com/whl/torch-1.10.1+cu113.html
+torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.10.1+cu113.html
+torch-geometric -f https://pytorch-geometric.com/whl/torch-1.10.1+cu113.html

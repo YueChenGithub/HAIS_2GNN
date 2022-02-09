@@ -92,6 +92,7 @@ This work is a research project conducted by Tao Gu and Yue Chen for ADL4CV:Visu
 
 We acknowledge that our work is based on [ScanRefer](https://github.com/daveredrum/ScanRefer), [InstanceRefer](https://github.com/CurryYuan/InstanceRefer), [HAIS](https://github.com/hustvl/HAIS), [torchsaprse](https://github.com/mit-han-lab/torchsparse), and [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric).
 
+
 ## License
 This repository is released under MIT License (see LICENSE file for details).
 

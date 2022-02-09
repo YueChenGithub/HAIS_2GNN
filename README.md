@@ -87,7 +87,7 @@ python scripts/eval.py
 02/09/2022: Released the HAIS_2GNN
 
 ## Acknowledgement
-This work is a research project conducted by Tao Gu and Yue CHen for ADL4CV:Visual Computing course at the Technical University of Munich.
+This work is a research project conducted by Tao Gu and Yue Chen for ADL4CV:Visual Computing course at the Technical University of Munich.
 
 We acknowledge that our work is based on [ScanRefer](https://github.com/daveredrum/ScanRefer), [InstanceRefer](https://github.com/CurryYuan/InstanceRefer), [HAIS](https://github.com/hustvl/HAIS),[torchsaprse](https://github.com/mit-han-lab/torchsparse), and [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric).
 

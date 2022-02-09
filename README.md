@@ -10,7 +10,7 @@ Tao Gu, Yue Chen
 
 ## Introduction
 
-The motivation of this project is to improve the accuracy of 3D visual grounding. In this report, we propose a new model, named HAIS_2GNN based on the [InstanceRefer](https://github.com/CurryYuan/InstanceRefer) model, to tackle the problem of insufficient connections between instance proposals. Our model incorporates a powerful instance segmentation model HAIS and strengthens the instance features by the structure of graph and attention, so that the text and point cloud can be better matched together. Experiments confirm that our method outperforms the InstanceRefer on ScanRefer validation datasets.
+The motivation of this project is to improve the accuracy of 3D visual grounding. In this report, we propose a new model, named HAIS_2GNN based on the [InstanceRefer](https://github.com/CurryYuan/InstanceRefer) model, to tackle the problem of insufficient connections between instance proposals. Our model incorporates a powerful instance segmentation model HAIS and strengthens the instance features by the structure of graph and attention, so that the text and point cloud can be better matched together. Experiments confirm that our method outperforms the InstanceRefer on ScanRefer validation datasets. [Link to the technical report](docs/ADL4CVReport.pdf)
 
 
 ## Setup
